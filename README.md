@@ -1,6 +1,8 @@
 # SimuladorArchivos
 Simulador Virtual de Sistema de Archivos con Gestión de Permisos y Asignación de Bloques
 
+Preparadores: Sofía León y Andrés Martin
+
 ## Planteamiento del Problema
 El objetivo de este proyecto es que los estudiantes desarrollen un simulador de sistema de archivos, en el que puedan comprender y aplicar conceptos fundamentales como la gestión de archivos y directorios, la asignación de bloques de almacenamiento, la administración de permisos y la fragmentación del espacio en disco.
 
