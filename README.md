@@ -22,7 +22,7 @@ Además, el sistema deberá actualizarse en tiempo real cada vez que se realice 
 1) **Visualización de la estructura del sistema de archivos:**
    * Implementar un **JTree** para representar la estructura jerárquica de directorios y archivos. 
    * **Referencia de aprendizaje:** Pueden echarle un ojo a este video que describe cómo utilizar este componente https://www.youtube.com/watch?v=SfljfVnLbc4 
-   * Mostrar información del archivo o directorio seleccionado (nombre, tamaño, permisos y fecha de creación).
+   * Mostrar información del archivo o directorio seleccionado (nombre y tamaño).
   
 2) **Simulación del SD y asignación de bloques:**
    * Representar visualmente el SD como un conjunto de bloques, indicando cuáles están ocupados y cuáles están libres.
