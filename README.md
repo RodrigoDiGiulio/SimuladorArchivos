@@ -53,7 +53,6 @@ Además, el sistema deberá actualizarse en tiempo real cada vez que se realice 
      * El nombre del archivo.
      * La cantidad de bloques asignados.
      * La dirección del primer bloque.
-     * La cadena de enlaces de la asignación encadenada.
    * La tabla debe actualizarse en tiempo real con cada operación CRUD.
 
 6) **Almacenar el estado de los archivos en el sistema:**
