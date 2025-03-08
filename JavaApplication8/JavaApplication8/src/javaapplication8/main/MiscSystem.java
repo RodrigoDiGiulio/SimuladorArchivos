@@ -127,10 +127,13 @@ public class MiscSystem {
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;
             main.blockDisplay.dispose();
-
+            main.fileDisplay.dispose();
             main.tableDisplay.dispose();
+            main.fileSystem.dispose();
             main.blockDisplay = new BlockDisplay(main.Storage);
+            main.fileDisplay = new FileDisplay();
             main.tableDisplay = new TableDisplay();
+            main.fileSystem = new FileSystem();
             main.files.empty();
             while ((line = reader.readLine()) != null) {
                 if (!isLog){
@@ -217,6 +220,7 @@ public class MiscSystem {
                         tempFile.parent = tempParent;
                         main.blockDisplay.addFile(tempFile);
                         if (tempFile.parent == null){
+                            main.fileDisplay.addFile(tempFile, main.fileDisplay.root,"Root");
                         } else {
                             List folderLadder = new List();
                             int ladderLevel = 0;
@@ -234,9 +238,9 @@ public class MiscSystem {
                                 File folderFile = new File();
                                 folderFile.name = (String) folderLadder.searchPos(i+1);
                                 System.out.println("FUUUCK"+(String) folderLadder.searchPos(i));
-                               
+                                main.fileDisplay.addFolder(folderFile, main.fileDisplay.root, (String) folderLadder.searchPos(i));
                             }
-                        
+                            main.fileDisplay.addFile(tempFile, main.fileDisplay.root, (String) folderLadder.searchEnd());
                         }
                         main.tableDisplay.addFile(tempFile);
                         main.files.addEnd(tempFile);

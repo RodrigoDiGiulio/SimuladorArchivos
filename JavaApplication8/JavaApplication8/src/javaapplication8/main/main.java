@@ -15,16 +15,20 @@ import java.util.concurrent.TimeUnit;
  */
 public class main {
     public static MiscSystem miscSystem;
+    public static FileSystem fileSystem;
     public static TableDisplay tableDisplay;
     public static BlockDisplay blockDisplay;
+    public static FileDisplay fileDisplay;
     public static List files;
     public static int Storage = 64;
     
     public static void main(String[] args) throws InterruptedException {
         files = new List();
         miscSystem = new MiscSystem();
+        fileSystem = new FileSystem();
         tableDisplay = new TableDisplay();
         blockDisplay = new BlockDisplay(Storage);
+        fileDisplay = new FileDisplay();
     }
         
 //        TableDisplay tableDisplay = new TableDisplay();
