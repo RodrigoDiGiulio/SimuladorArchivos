@@ -11,22 +11,22 @@ Parcial 3|5|51,153,102|58,59,60,61,62|1|Literatura,Root,
 Parcial 4|1|51,153,153|63|1|Matematica,Root,
 Log|
 MiscSystem started Correctly
-FileSystem started Correctly
-TableDisplay started Correctly
-BlockDisplay started Correctly
-FileDisplay started Correctly
-Folder Matematica Added
-File Parcial 1 Added
-File Parcial 2 Added
-File Parcial 3 Added
-Folder Literatura Added
-Folder Talleres Added
-Folder Libros Added
-File Pensamiento Libre Added
-File Ideologia Idealista Added
-File TanenBau Added
-File Enciclopedia General Added
-File Parcial 1 Added
-File Parcial 2 Added
-File Parcial 3 Added
-File Parcial 4 Added
+FileSystem started Correctly | Fecha: 2025-03-12T13:42:51.392052100 | Usuario: Admin
+TableDisplay started Correctly | Fecha: 2025-03-12T13:42:51.392052100 | Usuario: Admin
+BlockDisplay started Correctly | Fecha: 2025-03-12T13:42:51.392052100 | Usuario: Admin
+FileDisplay started Correctly | Fecha: 2025-03-12T13:42:51.393300200 | Usuario: Admin
+Folder Matematica Added | Fecha: 2025-03-12T13:42:51.393300200 | Usuario: Admin
+File Parcial 1 Added | Fecha: 2025-03-12T13:42:51.394576500 | Usuario: Admin
+File Parcial 2 Added | Fecha: 2025-03-12T13:42:51.394576500 | Usuario: Admin
+File Parcial 3 Added | Fecha: 2025-03-12T13:42:51.394576500 | Usuario: Admin
+Folder Literatura Added | Fecha: 2025-03-12T13:42:51.394576500 | Usuario: Admin
+Folder Talleres Added | Fecha: 2025-03-12T13:42:51.395740800 | Usuario: Admin
+Folder Libros Added | Fecha: 2025-03-12T13:42:51.396625500 | Usuario: Admin
+File Pensamiento Libre Added | Fecha: 2025-03-12T13:42:51.396625500 | Usuario: Admin
+File Ideologia Idealista Added | Fecha: 2025-03-12T13:42:51.397644500 | Usuario: Admin
+File TanenBau Added | Fecha: 2025-03-12T13:42:51.398648500 | Usuario: Admin
+File Enciclopedia General Added | Fecha: 2025-03-12T13:42:51.398648500 | Usuario: Admin
+File Parcial 1 Added | Fecha: 2025-03-12T13:42:51.400656600 | Usuario: Admin
+File Parcial 2 Added | Fecha: 2025-03-12T13:42:51.401659400 | Usuario: Admin
+File Parcial 3 Added | Fecha: 2025-03-12T13:42:51.401659400 | Usuario: Admin
+File Parcial 4 Added | Fecha: 2025-03-12T13:42:51.401659400 | Usuario: Admin

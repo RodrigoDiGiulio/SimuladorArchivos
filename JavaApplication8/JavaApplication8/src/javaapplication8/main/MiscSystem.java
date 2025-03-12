@@ -12,6 +12,7 @@ import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.time.LocalDateTime;
 import java.util.Arrays;
 import javaapplication8.primitivas.File;
 import javaapplication8.primitivas.List;
@@ -75,7 +76,7 @@ public class MiscSystem {
         panel.add(log);
         
         frame.add(panel);
-        frame.setSize(400, 800);
+        frame.setSize(600, 800);
         frame.setLocation(800, 0);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
@@ -91,9 +92,24 @@ public class MiscSystem {
         if (prevData.equals("")){
             log.setText(prevData + newData);
         } else {
+            LocalDateTime currentDateTime = LocalDateTime.now();
+            String user = "";
+            if (main.fileSystem != null && main.fileSystem.isAdmin){
+                user = "Admin";
+            } else {
+                user = "User";
+            }
+            log.setText(prevData + "\n" + newData + " | Fecha: " + currentDateTime + " | Usuario: " + user);
+        } 
+    }
+    
+    public void reloadLog(String newData){
+        String prevData = log.getText();
+        if (prevData.equals("")){
+            log.setText(prevData + newData);
+        } else {
             log.setText(prevData + "\n" + newData);
-        }
-        
+        } 
     }
     
     public void saveState(){
@@ -246,7 +262,7 @@ public class MiscSystem {
                         main.files.addEnd(tempFile);
                     }
                 } else {
-                    updateLog(line);
+                    reloadLog(line);
                 }
             }
         } catch (IOException e) {
